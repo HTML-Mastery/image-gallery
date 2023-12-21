@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background: url('https://source.unsplash.com/1600x900/?tech=code');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header h1 {
+            color: transparent;
+            font-size: 3em;
+            text-shadow: 4px 4px 8px #c9469b;
+            -webkit-text-stroke: 2px #ecff1f;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(#f8f8f8, #c9469b)
+        }
+
+        footer a {
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+
+    <section>
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=web" alt="Image 1">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=app" alt="Image 2">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=dev" alt="Image 3">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=code" alt="Image 4">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=design" alt="Image 5">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=seo" alt="Image 6">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=marketing" alt="Image 7">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=network" alt="Image 8">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=security" alt="Image 9">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=cloud" alt="Image 10">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=database" alt="Image 11">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://source.unsplash.com/1600x900/?tech=mobile" alt="Image 12">
+        </div>
+
+        <!-- Add more gallery items as needed -->
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2020 &bull; Image Gallery by <a href="https://github.com/Ajay-Dhangar">Ajay-Dhangar</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
